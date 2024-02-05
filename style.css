@@ -6,6 +6,14 @@ body {
     margin-bottom: 1rem;
 }
 
+.resume-link {
+    color: aquamarine;
+}
+
+.resume-link:hover {
+    color: #fff;
+}
+
 /* Showcase */
 .about-me-pic {
     max-width: 75%;
@@ -46,9 +54,6 @@ body {
     display: inline-block;
 }
 
-.social-icon i {
-
-}
 
 .social-icon li {
     list-style: none;
@@ -214,6 +219,7 @@ span:before{
     padding-left: 1rem;
     padding-right: 1rem;
     transition-duration: .4s;
+    display: none;
 
 }
 
