@@ -195,11 +195,21 @@ span:before{
     padding-bottom: 30px;
 }
 
+.proj-inner a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
 .proj-inner h2 {
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+.proj-link {
+    padding-bottom: 30px;
+
 }
 
 .proj-img {
