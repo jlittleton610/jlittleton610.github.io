@@ -62,6 +62,13 @@ body {
 
 .showcase-bg h1 {
     font-size: 4rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.showcase-bg h2 {
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .showcase-bg p {
@@ -69,7 +76,7 @@ body {
 
 }
 
-span:before{
+span[id=rotating-text]:before{
     content: '';
     animation: animate infinite 10s;
     color: aquamarine;
