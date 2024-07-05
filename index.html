@@ -6,7 +6,7 @@
     <title>Jerrett Littleton</title>
     
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -24,10 +24,11 @@
 </head>
 <body>
 
+
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Jerrett</a>
+      <!-- <a class="navbar-brand" href="#">Jerrett</a> -->
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
@@ -54,6 +55,7 @@
       </div>
     </div>
   </nav>
+
   
   <!-- Showcase  -->
   <header class="showcase-bg p-5 d-flex">
@@ -61,7 +63,7 @@
         <div class="row align-items-center">
           <div class="col-md">
             <h1>Jerrett Littleton</h1>
-            <h2>Senior Geospatial Technologist/It Manager</h2>
+            <h2>Senior Geospatial Technologist/IT Manager</h2>
             <p><span id="rotating-text"></span></p>
             <ul>
               <li><i class="bi bi-envelope-fill"></i><a href="mailto:jlittleton610@gmail.com">jlittleton610@gmail.com</a></li>
@@ -281,7 +283,7 @@
           
       </div>
     </div>
-  </section>
+  </section> 
   
   
   <!-- Work Projects -->
@@ -290,12 +292,12 @@
       <div class="row">
         <h3 class="title">Work Projects</h3>
 
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 mb-4">
           <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
+            <!-- <img src="./images/projects.jpg" alt="" class="img-fluid"> -->
             <div class="proj-inner">
               <h2>Data Automation ETL</h2>
-              <p>Automation of data flows into our PostGIS enabled PostgreSQL database is a frequent project I'm part of. This includes building new ETL pipelines and maintaining old ones. We use these to streamline the collection, processing, and integration of disparate datasets into our PostgreSQL database, ensuring the data remains accurate and up-to-date. Python is used to obtain both freely available data or data accessed via paid for credentials. We often pull that data into a GeoPandas DataFrame for processing before loading it into our database. From there we are able to access this spatial data using QGIS or ArcGIS Pro to perform Geospatial Analysis and stylize it before creating the connection to Geoserver. Automation is setup through the use of Cron Jobs in Linux on our virtual servers. ETL pipelines have been created for data sources such as NASA, Fish and Wildlife, NOAA, CalFire, Property Data for all 58 California counties, and more.</p>
+              <p>Automation of data flows into PostGIS-enabled PostgreSQL databases includes building and maintaining ETL pipelines to streamline data collection, processing, and integration, ensuring accuracy and currency. Python is used to obtain and process data in GeoPandas before database loading. Spatial data is accessed with QGIS or ArcGIS Pro for geospatial analysis and styling, then connected to Geoserver. Automation is set up with Cron Jobs in Linux on virtual servers, with ETL pipelines developed for sources like NASA, Fish and Wildlife, NOAA, CalFire, and property data for all 58 California counties.</p>
               <div class="container d-flex">
                 <div class="row">
                   <div class="col">
@@ -315,19 +317,20 @@
                   </div>
                 </div>
               </div>
-              <div class="center">
+              <div class="mt-auto center">
+                <button class="proj-btn m-3">More Info</button>
                 <button class="proj-btn m-3">Sample Code</button>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 mb-4">
           <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
+            <!-- <img src="./images/projects.jpg" alt="" class="img-fluid"> -->
             <div class="proj-inner">
               <h2>Metrics Pipeline and Reporting</h2>
-              <p>I was tasked with establishing a comprehensive Metrics Pipeline and Reporting system to gain insights into user interactions with our web maps. To achieve this, I designed and implemented a user logging schema within our PostgreSQL database. The project seamlessly integrated SQL, Python, Pandas, NumPy, and Matplotlib to analyze data, generate meaningful metrics, and present them through visually informative graphs.</p>
+              <p>Established a comprehensive Metrics Pipeline and Reporting system to gain insights into user interactions with web maps. Designed and implemented a user logging schema within PostgreSQL, integrating SQL, Python, Pandas, NumPy, and Matplotlib to analyze data, generate meaningful metrics, and present them through visually informative graphs.</p>
               <div class="container d-flex">
                 <div class="row">
                   <div class="col">
@@ -342,19 +345,20 @@
                   </div>
                 </div>
               </div>
-              <div class="center">
+              <div class="mt-auto center">
+                <button class="proj-btn m-3">More Info</button>
                 <button class="proj-btn m-3">Sample Code</button>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 mb-4">
           <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
+            <!-- <img src="./images/projects.jpg" alt="" class="img-fluid"> -->
             <div class="proj-inner">
               <h2>Email Marketing Campaigns</h2>
-              <p>During a 6-month period I was in charge of orchestrating and optimizing Email Marketing Campaigns targeted at a diverse audience of 250,000 contacts. I leveraged my skills in HTML, CSS, Photoshop, Python, Pandas, and Advanced Excel, to deliver visually compelling and personalized email content. This included precise audience segmentation, robust A/B testing, and meticulous tracking of key performance indicators (KPIs). Over the course of this 6-month period 20 email campaigns were completed. This included a mixture of Warmups and Value Propositions around our Web Map services. The content ranged from general features of our products, new features added, service changes, and sector specific campaigns to advertise benefits. Across these campaigns we saw an average Open Rate of 25.85% and Click Rate of 4.49%</p>
+              <p>Orchestrated and optimized Email Marketing Campaigns for a diverse audience of 250,000 contacts over 6 months. Utilized HTML, CSS, Photoshop, Python, Pandas, and Advanced Excel to deliver visually compelling and personalized email content, including audience segmentation, A/B testing, and tracking of key performance indicators (KPIs). Completed 20 campaigns, achieving an average Open Rate of 25.85% and Click Rate of 4.49%.</p>
               <div class="container d-flex">
                 <div class="row">
                   <div class="col">
@@ -379,19 +383,20 @@
                   </div>
                 </div>
               </div>
-              <div class="center">
+              <div class="mt-auto center">
+                <button class="proj-btn m-3">More Info</button>
                 <button class="proj-btn m-3">Sample Code</button>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 mb-4">
           <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
+            <!-- <img src="./images/projects.jpg" alt="" class="img-fluid"> -->
             <div class="proj-inner">
               <h2>Technical Documentation</h2>
-              <p>I led the creation of technical documentation including an overhaul of our user activity logging database schema. Original activity logging had over 22,000 unique event names in the database. Newly implemented schema included 23 unique event names and used 15 event actions to consolidate the previous 22,000 into a succinct and intuitive logging system. The addition of JSONB added details not previously included in our activity logging. I've also led and assisted in the creation of many general technical documents for training, volunteer, and new user reference.</p>
+              <p>Led the creation of technical documentation, including an overhaul of the user activity logging database schema. Consolidated over 22,000 unique event names into 23 unique event names with 15 event actions, incorporating JSONB for additional details. Created various general technical documents for training, volunteer, and new user reference.</p>
               <div class="container d-flex">
                 <div class="row">
                   <div class="col">
@@ -411,19 +416,20 @@
                   </div>
                 </div>
               </div>
-              <div class="center">
+              <div class="mt-auto center">
+                <button class="proj-btn m-3">More Info</button>
                 <button class="proj-btn m-3">Sample Code</button>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 mb-4">
           <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
+            <!-- <img src="./images/projects.jpg" alt="" class="img-fluid"> -->
             <div class="proj-inner">
               <h2>Update and Maintain Company Websites</h2>
-              <p>As part of my work responsibilities I update and maintain the company's websites hosted on WordPress. I leverage my skils in HTML, CSS, and basic JavaScript while staying within strict guidlines to change and add new content while also following SEO best practices. Google Analytics was implemented to monitor website traffic.</p>
+              <p>Updated and maintained company websites hosted on WordPress, using HTML, CSS, and basic JavaScript within strict guidelines to change and add content while adhering to SEO best practices. Implemented Google Analytics to monitor website traffic.</p>
               <h2>Websites</h2>
               <div class="container d-flex mb-3">
                 <div class="row">
@@ -459,9 +465,6 @@
                   </div>
                 </div>
               </div>
-              <div class="center">
-                <button class="proj-btn m-3">Sample Code</button>
-              </div>
             </div>
           </div>
         </div>       
@@ -476,9 +479,9 @@
       <div class="row">
         <h3 class="title">Personal Projects</h3>
 
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 mb-4">
           <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
+            <img src="./images/portfolio_page_1440.jpg" alt="" class="img-fluid">
             <div class="proj-inner">
               <h2>Portfolio</h2>
               <p>This professional portfolio was crafted to showcase my work experience in an accessible and aesthetically pleasing manner. I leveraged a combination of HTML, CSS, and Bootstrap to showcase my skills and projects.</p>
@@ -501,7 +504,8 @@
                   </div>
                 </div>
               </div>
-              <div class="center">
+              <div class="mt-auto center">
+                <button class="proj-btn m-3">More Info</button>
                 <button class="proj-btn m-3">Sample Code</button>
               </div>
             </div>
@@ -512,10 +516,10 @@
     </div>
   </section>
 
-  
-
-<!-- Bootstrap JS and Popper.js -->
+    <!-- Bootstrap JS and Popper.js -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
