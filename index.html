@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jerrett Littleton</title>
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerrett Littleton</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Custom CSS (style.css) -->
+  <link href="style.css" rel="stylesheet">
 
-    <!-- Custom CSS (style.css) -->
-    <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome JS -->
+  <script src="https://kit.fontawesome.com/24abe26d80.js" crossorigin="anonymous"></script>
 
-    <!-- Font Awesome JS -->
-    <script src="https://kit.fontawesome.com/24abe26d80.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
+
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Jerrett</a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="#experience" class="nav-link">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://raw.githubusercontent.com/jlittleton610/jlittleton610.github.io/main/resume/JerrettLittletonResume.pdf" download="jlittletonresume" class="nav-link resume-link">Download Resume</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Jerrett</a>
   
-  <!-- Showcase  -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://raw.githubusercontent.com/jlittleton610/jlittleton610.github.io/main/resume/JerrettLittletonResume.pdf" download="jlittletonresume" class="nav-link resume-link">Download Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <!-- Showcase  -->
   <header class="showcase-bg p-5 d-flex">
     <div class="container d-flex">
         <div class="row align-items-center">
           <div class="col-md">
             <h1>Jerrett Littleton</h1>
-            <h2>Senior Geospatial Technologist/It Manager</h2>
+            <h2>Senior Geospatial Technologist/IT Manager</h2>
             <p><span id="rotating-text"></span></p>
             <ul>
               <li><i class="bi bi-envelope-fill"></i><a href="mailto:jlittleton610@gmail.com">jlittleton610@gmail.com</a></li>
@@ -281,241 +283,443 @@
           
       </div>
     </div>
-  </section>
-  
-  
-  <!-- Work Projects -->
-  <section id="projects" class="projects-bg p-5 d-flex">
+  </section> 
+
+  <!-- Work Projects Carousel -->
+  <section id="projects" class="projects-bg">
+
     <div class="container d-flex">
       <div class="row">
         <h3 class="title">Work Projects</h3>
 
-        <div class="col-sm-12 col-md-4">
-          <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
-            <div class="proj-inner">
-              <h2>Data Automation ETL</h2>
-              <p>Automation of data flows into our PostGIS enabled PostgreSQL database is a frequent project I'm part of. This includes building new ETL pipelines and maintaining old ones. We use these to streamline the collection, processing, and integration of disparate datasets into our PostgreSQL database, ensuring the data remains accurate and up-to-date. Python is used to obtain both freely available data or data accessed via paid for credentials. We often pull that data into a GeoPandas DataFrame for processing before loading it into our database. From there we are able to access this spatial data using QGIS or ArcGIS Pro to perform Geospatial Analysis and stylize it before creating the connection to Geoserver. Automation is setup through the use of Cron Jobs in Linux on our virtual servers. ETL pipelines have been created for data sources such as NASA, Fish and Wildlife, NOAA, CalFire, Property Data for all 58 California counties, and more.</p>
-              <div class="container d-flex">
-                <div class="row">
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/python.png" alt="">
+        <div id="workProjectControls" class="carousel slide d-none d-sm-block">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cards-wrapper">
+              <div class="card">                
+                <img src="images/projects.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <div class="card-body-top d-flex flex-column">
+                      <h5 class="card-title">Data Automation ETL</h5>
+                      <p class="card-text">I frequently work on automating data flows into our PostGIS-enabled PostgreSQL database by building and maintaining ETL pipelines, using Python to collect and process data before loading it for geospatial analysis in QGIS or ArcGIS Pro. Automation is achieved through Cron Jobs on Linux servers, handling data from sources like NASA, NOAA, and CalFire.</p>
+                    </div>
+
+                    <div class="card-body-bottom d-flex flex-column">
+                      <div class="container d-flex">
+                        <div class="row">
+                          <div class="col">
+                            <div class>
+                              <img class="proj-img" src="./images/python.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class>
+                              <img class="proj-img" src="./images/linux.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class>
+                              <img class="proj-img" src="./images/postgresql.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>                    
+                        <div class="mt-auto center">
+                          <button class="proj-btn m-3">More Info</button>
+                          <button class="proj-btn m-3">Sample Code</button>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="images/projects.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-body-top d-flex flex-column">
+
+                    <h5 class="card-title">Metrics Pipeline and Reporting</h5>
+                    <p class="card-text">I was tasked with establishing a comprehensive Metrics Pipeline and Reporting system to gain insights into user interactions with our web maps. To achieve this, I designed and implemented a user logging schema within our PostgreSQL database. The project seamlessly integrated SQL, Python, Pandas, NumPy, and Matplotlib to analyze data, generate meaningful metrics, and present them through visually informative graphs.</p>
+                </div>
+                  
+                  <div class="card-body-bottom d-flex flex-column">
+                    <div class="container d-flex">
+                      <div class="row">
+                        <div class="col">
+                          <div class>
+                            <img class="proj-img" src="./images/python.png" alt="">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class>
+                            <img class="proj-img" src="./images/postgresql.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-auto center">
+                      <button class="proj-btn m-3">More Info</button>
+                      <button class="proj-btn m-3">Sample Code</button>
+                    </div>
+                </div>
+                </div>
+              </div>
+              <div class="card d-none d-md-block">
+                <img src="images/projects.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                  <div class="card-body-top d-flex flex-column">
+                    <h5 class="card-title">Email Marketing Campaigns</h5>
+                    <p class="card-text">Over six months, I orchestrated and optimized email marketing campaigns for 250,000 contacts, using HTML, CSS, Photoshop, Python, Pandas, and Excel for personalized content, audience segmentation, A/B testing, and KPI tracking. This resulted in 20 campaigns with an average open rate of 25.85% and a click rate of 4.49%.</p>
+                  </div>
+
+                  <div class="card-body-bottom d-flex flex-column">
+                    <div class="container d-flex">
+                      <div class="row">
+                        <div class="col">
+                          <div class>
+                            <img class="proj-img" src="./images/html5.svg" alt="">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class>
+                            <img class="proj-img" src="./images/css3.svg" alt="">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class>
+                            <img class="proj-img" src="./images/adobe.png" alt="">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class>
+                            <img class="proj-img" src="./images/python.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-auto center">
+                      <button class="proj-btn m-3">More Info</button>
+                      <button class="proj-btn m-3">Sample Code</button>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/linux.png" alt="">
+
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+
+                    <div class="card-body-top d-flex flex-column">
+                      <h5 class="card-title">Technical Documentation</h5>
+                      <p class="card-text">I led the overhaul of our user activity logging database schema, reducing 22,000 unique event names to 23, and added JSONB for detailed logging. Additionally, I created various technical documents for training, volunteer, and new user reference.</p>
                     </div>
+                    
+                    <div class="card-body-bottom d-flex flex-column">
+                      <div class="container d-flex">
+                        <div class="row">
+                          <div class="col">
+                            <div class>
+                              <img class="proj-img" src="./images/microsoft.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class>
+                              <img class="proj-img" src="./images/adobe.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class>
+                              <img class="proj-img" src="./images/postgresql.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-auto center">
+                        <button class="proj-btn m-3">More Info</button>
+                        <button class="proj-btn m-3">Sample Code</button>
+                      </div>
+                    </div>
+
                   </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/postgresql.png" alt="">
+                </div>
+                <div class="card d-none d-md-block">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+
+                    <div class="card-body-top d-flex flex-column">
+                      <h5 class="card-title">Update and Maintain Company Websites</h5>
+                      <p class="card-text">I update and maintain the company's WordPress websites, using HTML, CSS, and basic JavaScript within strict guidelines to add and modify content while adhering to SEO best practices. Additionally, I implemented Google Analytics to monitor website traffic.</p>
+                      <h5>Websites</h5>
+                      <div class="container d-flex mb-3">
+                        <div class="row">
+                          <div class="col">
+                            <a class="proj-link" href="https://enplan.com/" target="_blank">ENPLAN</a>
+                          </div>
+                          <div class="col">
+                            <a class="proj-link" href="https://mapport.com/" target="_blank">MapPort</a>
+                          </div>
+                        </div>
+                      </div> 
                     </div>
+
+                    <div class="card-body-bottom d-flex flex-column">
+                      <div class="container d-flex">
+                        <div class="row">
+                          <div class="col">
+                            <div class>
+                              <img class="proj-img" src="./images/html5.svg" alt="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class>
+                              <img class="proj-img" src="./images/css3.svg" alt="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class>
+                              <img class="proj-img" src="./images/wordpress.png" alt="">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class>
+                              <img class="proj-img" src="./images/google.png" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-auto center">
+                        <button class="proj-btn m-3">More Info</button>
+                        <button class="proj-btn m-3">Sample Code</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- <div class="card d-none d-md-block">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title6</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <!-- <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
+                  </div>
+                </div>
+                <div class="card d-none d-md-block">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
+                  </div>
+                </div>
+                <div class="card d-none d-md-block">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
                   </div>
                 </div>
               </div>
-              <div class="center">
-                <button class="proj-btn m-3">Sample Code</button>
-              </div>
-            </div>
+            </div> -->
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#workProjectControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#workProjectControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-          <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
-            <div class="proj-inner">
-              <h2>Metrics Pipeline and Reporting</h2>
-              <p>I was tasked with establishing a comprehensive Metrics Pipeline and Reporting system to gain insights into user interactions with our web maps. To achieve this, I designed and implemented a user logging schema within our PostgreSQL database. The project seamlessly integrated SQL, Python, Pandas, NumPy, and Matplotlib to analyze data, generate meaningful metrics, and present them through visually informative graphs.</p>
-              <div class="container d-flex">
-                <div class="row">
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/python.png" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/postgresql.png" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="center">
-                <button class="proj-btn m-3">Sample Code</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-          <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
-            <div class="proj-inner">
-              <h2>Email Marketing Campaigns</h2>
-              <p>During a 6-month period I was in charge of orchestrating and optimizing Email Marketing Campaigns targeted at a diverse audience of 250,000 contacts. I leveraged my skills in HTML, CSS, Photoshop, Python, Pandas, and Advanced Excel, to deliver visually compelling and personalized email content. This included precise audience segmentation, robust A/B testing, and meticulous tracking of key performance indicators (KPIs). Over the course of this 6-month period 20 email campaigns were completed. This included a mixture of Warmups and Value Propositions around our Web Map services. The content ranged from general features of our products, new features added, service changes, and sector specific campaigns to advertise benefits. Across these campaigns we saw an average Open Rate of 25.85% and Click Rate of 4.49%</p>
-              <div class="container d-flex">
-                <div class="row">
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/html5.svg" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/css3.svg" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/adobe.png" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/python.png" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="center">
-                <button class="proj-btn m-3">Sample Code</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-          <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
-            <div class="proj-inner">
-              <h2>Technical Documentation</h2>
-              <p>I led the creation of technical documentation including an overhaul of our user activity logging database schema. Original activity logging had over 22,000 unique event names in the database. Newly implemented schema included 23 unique event names and used 15 event actions to consolidate the previous 22,000 into a succinct and intuitive logging system. The addition of JSONB added details not previously included in our activity logging. I've also led and assisted in the creation of many general technical documents for training, volunteer, and new user reference.</p>
-              <div class="container d-flex">
-                <div class="row">
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/microsoft.png" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/adobe.png" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/postgresql.png" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="center">
-                <button class="proj-btn m-3">Sample Code</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-          <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
-            <div class="proj-inner">
-              <h2>Update and Maintain Company Websites</h2>
-              <p>As part of my work responsibilities I update and maintain the company's websites hosted on WordPress. I leverage my skils in HTML, CSS, and basic JavaScript while staying within strict guidlines to change and add new content while also following SEO best practices. Google Analytics was implemented to monitor website traffic.</p>
-              <h2>Websites</h2>
-              <div class="container d-flex mb-3">
-                <div class="row">
-                  <div class="col">
-                    <a class="proj-link" href="https://enplan.com/" target="_blank">ENPLAN</a>
-                  </div>
-                  <div class="col">
-                    <a class="proj-link" href="https://mapport.com/" target="_blank">MapPort</a>
-                  </div>
-                </div>
-            </div>  
-              <div class="container d-flex">
-                <div class="row">
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/html5.svg" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/css3.svg" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/wordpress.png" alt="">
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/google.png" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="center">
-                <button class="proj-btn m-3">Sample Code</button>
-              </div>
-            </div>
-          </div>
-        </div>       
-
       </div>
-    </div>
-  </section>
+    </div>  
 
-  <!-- Personal Projects -->
-  <section id="projects" class="projects-bg p-5 d-flex">
+  </section>
+  
+  <!-- Personal Projects Carousel -->
+  <section class="projects-bg pt-5 pb-5">
+
     <div class="container d-flex">
       <div class="row">
         <h3 class="title">Personal Projects</h3>
 
-        <div class="col-sm-12 col-md-4">
-          <div class="card-bg projects-card">
-            <img src="./images/projects.jpg" alt="" class="img-fluid">
-            <div class="proj-inner">
-              <h2>Portfolio</h2>
-              <p>This professional portfolio was crafted to showcase my work experience in an accessible and aesthetically pleasing manner. I leveraged a combination of HTML, CSS, and Bootstrap to showcase my skills and projects.</p>
-              <div class="container d-flex">
-                <div class="row">
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/html5.svg" alt="">
+        <div id="personalProjectControls" class="carousel slide d-none d-sm-block">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cards-wrapper">
+              <div class="card">
+                <img src="images/portfolio_page_1080.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                  <div class="card-body-top d-flex flex-column">
+                    <h5 class="card-title">Portfolio</h5>
+                    <p class="card-text">This professional portfolio was crafted to showcase my work experience in an accessible and aesthetically pleasing manner. I leveraged a combination of HTML, CSS, and Bootstrap to showcase my skills and projects.</p>
+                  </div>
+
+                  <div class="card-body-bottom d-flex flex-column">
+                    <div class="container d-flex">
+                      <div class="row">
+                        <div class="col">
+                          <div class>
+                            <img class="proj-img" src="./images/html5.svg" alt="">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class>
+                            <img class="proj-img" src="./images/css3.svg" alt="">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class>
+                            <img class="proj-img" src="./images/bootstrap.svg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-auto center">
+                      <a href="https://github.com/jlittleton610/jlittleton610.github.io" target="_blank"><button class="proj-btn m-3">Source Code</button></a>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/css3.svg" alt="">
-                    </div>
+
+                </div>
+              </div>
+              <!-- <div class="card d-none d-md-block">
+                <img src="images/projects.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title2</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
                   </div>
-                  <div class="col">
-                    <div class>
-                      <img class="proj-img" src="./images/bootstrap.svg" alt="">
-                    </div>
+                </div>
+              </div> -->
+              <!-- <div class="card d-none d-md-block">
+                <img src="images/projects.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title3</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            </div>
+            <!-- <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title4</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
+                  </div>
+                </div>
+                <div class="card d-none d-md-block">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title5</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
+                  </div>
+                </div>
+                <div class="card d-none d-md-block">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title6</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
                   </div>
                 </div>
               </div>
-              <div class="center">
-                <button class="proj-btn m-3">Sample Code</button>
+            </div> -->
+            <!-- <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
+                  </div>
+                </div>
+                <div class="card d-none d-md-block">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
+                  </div>
+                </div>
+                <div class="card d-none d-md-block">
+                  <img src="images/projects.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="center">
+                    <button class="proj-btn m-3">Sample Code</button>
+                  </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </div> -->
           </div>
-        </div>       
-
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#personalProjectControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#personalProjectControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span> -->
+          </a>
+        </div>
+        
       </div>
     </div>
+
   </section>
 
-  
 
-<!-- Bootstrap JS and Popper.js -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
