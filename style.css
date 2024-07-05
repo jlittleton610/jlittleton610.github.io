@@ -60,6 +60,16 @@ body {
     float: left;
 }
 
+.showcase-img {
+    height: 32px;
+    line-height: .03125em;
+    
+}
+
+.fa-2xl {
+    line-height: 1em !important;
+}
+
 .showcase-bg h1 {
     font-size: 4rem;
     margin-bottom: 0px;
