@@ -87,11 +87,11 @@ body {
 }
 
 span[id=rotating-text]:before{
-    content: '';
-    animation: animate infinite 10s;
+    content: 'Data Engineer';
+    /* animation: animate infinite 10s; */
     color: aquamarine;
 }
-@keyframes animate{
+/* @keyframes animate{
     0%{
         content: 'Geospatial Developer';
     }
@@ -107,7 +107,7 @@ span[id=rotating-text]:before{
     100%{
         content: 'Web Developer';
     }
-}
+} */
 
 /* About */
 .about-section {
