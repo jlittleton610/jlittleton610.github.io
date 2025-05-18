@@ -188,13 +188,13 @@ const projectContent = {
     title: "Current Portfolio Website",
     description: "The latest version of my personal website to showcase my experience, skills, and projects. Built with HTML, CSS, and lightweight vanilla JavaScript.",
     image: "images/new_portfolio1920.jpg",
-    link: "https://github.com/jlittleton610/current-portfolio"
+    link: "https://github.com/jlittleton610/jlittleton610.github.io"
   },
   "portfolio-old": {
     title: "Old Portfolio Website",
     description: "The first iteration of my portfolio, built with HTML, CSS, and Bootstrap. Focused on building a clean and simple responsive layout.",
     image: "images/portfolio_page_1080.jpg",
-    link: "https://github.com/jlittleton610/portfolio"
+    link: "https://github.com/jlittleton610/jlittleton610.github.io/tree/main/old_portfolio"
   },
   "coming-soon1": {
     title: "Coming Soon 1",
