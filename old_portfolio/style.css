@@ -1,0 +1,276 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.resume-link {
+    color: aquamarine;
+}
+
+.resume-link:hover {
+    color: #fff;
+}
+
+/* Showcase */
+.about-me-pic {
+    max-width: 75%;
+    height: auto;
+    border-radius: 10px;
+    mask-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8), rgba(0,0,0,.8), rgba(0,0,0,.8), rgba(0,0,0,.8), rgba(0,0,0,.8), rgba(0,0,0,.8), rgba(0,0,0,.8), rgba(0,0,0,.8), rgba(0,0,0,.5), rgba(0,0,0,.25), rgba(0,0,0,0));
+}
+
+.showcase-bg {
+    background-color: #100e17;
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+    color: #fff;
+    justify-content: center;
+
+}
+
+.showcase-bg ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 10px 0;
+
+}
+
+.showcase-bg i {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.showcase-bg a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icon {
+    margin-top: 0;
+    display: inline-block;
+}
+
+
+.social-icon li {
+    list-style: none;
+    float: left;
+}
+
+.showcase-img {
+    height: 32px;
+    line-height: .03125em;
+    
+}
+
+.fa-2xl {
+    line-height: 1em !important;
+}
+
+.showcase-bg h1 {
+    font-size: 4rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.showcase-bg h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.showcase-bg p {
+    font-size: 2rem;
+
+}
+
+span[id=rotating-text]:before{
+    content: '';
+    animation: animate infinite 10s;
+    color: aquamarine;
+}
+@keyframes animate{
+    0%{
+        content: 'Geospatial Developer';
+    }
+    25%{
+        content: 'Data Analyst';
+    }
+    50%{
+        content: 'IT Manager';
+    }
+    75%{
+        content: 'Project Manager';
+    }
+    100%{
+        content: 'Web Developer';
+    }
+}
+
+/* About */
+.about-section {
+    background-color: #100e17;
+    color: #fff;
+}
+
+/* Skills */
+.skills-bg {
+    background-color: #100e17;
+    color: #fff;
+}
+
+.skill-img {
+    max-height: 45px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.title h3 {
+    font-size: 14px;
+}
+
+/* Education & Work Experience */
+.experience-bg {
+    background-color: #100e17;
+    color: #fff;
+}
+
+.card-bg {
+    background-color: #202026;
+}
+
+.work-col {
+    padding-right: 30px;
+}
+
+.education-col {
+    padding-left: 30px;
+}
+
+.education-item {
+    margin-bottom: 30px;
+    padding: 26px 30px;
+    border-radius: 4px;
+    box-shadow: -1rem 0 3rem #000;
+}
+
+.education-item h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.education-item p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.education-item a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.education-item div {
+    color: aquamarine;
+    margin: 10px 0;
+}
+
+@media (max-width: 767px) {
+    .education-col {
+        padding-left: 0px;
+    }
+    
+}
+
+/* Projects */
+
+
+.projects-bg {
+    background-color: #100e17;
+    color: #fff;
+}
+
+.projects-title {
+    text-align: center;
+}
+
+.project-img {
+    max-width: 325px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.projects-card {
+    box-shadow: -1rem 0 3rem #000;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.proj-inner {
+    padding: 20px 20px;
+    padding-bottom: 30px;
+}
+
+.proj-inner a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.proj-inner h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.proj-link {
+    padding-bottom: 30px;
+
+}
+
+.proj-img {
+    max-height: 45px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.proj-btn {
+    background-color: transparent;
+    color: aquamarine;
+    border: 1px solid aquamarine;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition-duration: .4s;
+    display: none;
+
+}
+
+.proj-btn:hover {
+    background-color: aquamarine;
+    color: #100e17;
+}
+
+.mt-auto {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
