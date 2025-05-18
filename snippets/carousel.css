@@ -1,0 +1,91 @@
+/* Carousel Section */
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-btn {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: var(--text-color-second);
+    cursor: pointer;
+    transition: color 0.3s;
+    z-index: 10;
+  }
+  .carousel-btn:hover {
+    color: var(--first-color);
+  }
+  
+  .carousel-track-wrapper {
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 40px;
+  }
+  
+  .work-card {
+    flex: 0 0 100%;
+    max-width: 600px;
+    margin: auto;
+    background: var(--color-white);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 16px;
+    opacity: 0.4;
+    transform: scale(0.9);
+    transition: all 0.4s ease;
+  }
+  .work-card.active {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .work-card h3 a {
+    color: var(--first-color);
+    text-decoration: none;
+  }
+  .work-card h3 a:hover {
+    text-decoration: underline;
+  }
+  
+  .work-card .job-location {
+    font-weight: 500;
+    margin-top: 0.5rem;
+    color: var(--text-color-third);
+  }
+  .work-card .job-title {
+    margin: 0.5rem 0;
+    font-weight: 600;
+    color: var(--text-color-second);
+  }
+  .work-card ul {
+    padding-left: 1.2rem;
+  }
+  .work-card ul li {
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    color: var(--text-color-third);
+  }
+  
+  .carousel-btn {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: var(--text-color-second);
+    cursor: pointer;
+    transition: color 0.3s;
+    z-index: 2;
+  }
+  .carousel-btn:hover {
+    color: var(--first-color);
+  }
