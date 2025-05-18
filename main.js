@@ -30,7 +30,7 @@ window.onscroll = function () {
   }
 };
 
-/* ----- TYPING EFFECT, SKILL FILTERS, SCROLL REVEAL, WORK CAROUSEL ----- */
+/* ----- TYPING EFFECT ----- */
 document.addEventListener("DOMContentLoaded", () => {
   /* TYPING EFFECT */
   new Typed(".typedText", {
@@ -41,21 +41,29 @@ document.addEventListener("DOMContentLoaded", () => {
     backDelay: 2000,
   });
 
-  /* SKILL FILTER TOGGLE */
-  const skillButtons = document.querySelectorAll(".skill-filter-btn");
-  const skillTags = document.querySelectorAll(".skill-tag");
+/* SKILL FILTER TOGGLE */
+const skillButtons = document.querySelectorAll(".skill-filter-btn");
+const skillTags = document.querySelectorAll(".skill-tag");
 
-  skillButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      skillButtons.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
+skillButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    skillButtons.forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
 
-      const selected = btn.dataset.skill;
-      skillTags.forEach((tag) => {
-        tag.classList.toggle("highlight", selected === "all" || tag.dataset.type === selected);
-      });
+    const selected = btn.dataset.skill;
+    skillTags.forEach((tag) => {
+      // Split data-type by space and check if selected is included
+      const types = tag.dataset.type.split(' ');
+      tag.classList.toggle("highlight", selected === "all" || types.includes(selected));
     });
   });
+});
+
+// Highlight all skills on page load if "All" is active
+const allBtn = document.querySelector('.skill-filter-btn[data-skill="all"]');
+if (allBtn && allBtn.classList.contains('active')) {
+  skillTags.forEach(tag => tag.classList.add('highlight'));
+}
 
   /* SCROLL REVEAL ANIMATIONS */
   const sr = ScrollReveal({ origin: "top", distance: "80px", duration: 2000, reset: true });
